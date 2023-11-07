@@ -369,6 +369,18 @@ Du trenger ikke lage en Pipeline for Java applikasjonen, kun for Terraform i den
 * Kan du lage en ny Controller metode med ny funksjonalitet i Javakoden ? 
 * Bruk gjerne følgende guide som inspirasjon https://www.baeldung.com/micrometer
 * Referanseimplementasjon; https://micrometer.io/docs/concepts
+* 
+
+
+
+## Ekstraoppgaver 2
+
+* Lag en container av Java applikasjon og bygg den og push til ECR via GitHub Actions
+* Lag terraformkode for en Apprunner servie for aplkasjonen
+* Pass på å lage avhengighet mellom jobbene som bygger container og terraformkoden
+* Lag modulen din som et eget GitHub repository . 
+
+
 
 Nyttig informasjon; 
 
